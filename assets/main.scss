@@ -3,8 +3,8 @@ button,
 input,
 select,
 textarea {
-  font-family: "Mulish", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Mulish', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
 }
 
 // sticky footer
@@ -101,9 +101,13 @@ button:focus {
   padding: 0.5rem 1rem;
 }
 
+p {
+  margin: 0;
+}
+
 // form elements
 
-input[type="number"] {
+input[type='number'] {
   width: 50px;
   margin-right: 10px;
 }
@@ -246,7 +250,7 @@ table th {
 }
 
 .comma:not(:first-child):before {
-  content: ", ";
+  content: ', ';
   margin: 0.15rem;
 }
 
@@ -299,8 +303,8 @@ table th {
   }
 
   h1 {
-    font-size: 30px;
     margin-right: 40px;
+    font-size: 30px;
   }
 
   .filter {
@@ -324,6 +328,7 @@ section.restaurantinfo {
   .iteminfo {
     background: white;
     width: 100%;
+    width: -webkit-fill-available;
     padding: 15px;
     position: absolute;
     bottom: 0;
